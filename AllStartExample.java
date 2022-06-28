@@ -1,9 +1,11 @@
-package PracticeQ;
+/*  Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*".
+allStar("hello") → "h*e*l*l*o"  */
 
-public class AllStartExample {
+
+public class AllStarExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		System.out.println("printing * after every alphabat : ");
 		System.out.println(allStar("hello"));
